@@ -1,5 +1,10 @@
-# Data Structure
+# Data Structure and Algorithims
 
-* Sorting
+* <b>Sorting</b>
 
-	1. Insertion Sort (In-progress)
+	1. Insertion Sort 
+	
+
+	
+
+Refrences: http://www.geeksforgeeks.org/data-structures/
