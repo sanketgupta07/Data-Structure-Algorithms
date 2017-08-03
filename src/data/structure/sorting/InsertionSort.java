@@ -25,6 +25,10 @@ public class InsertionSort {
 
 	/**
 	 * This method will sort the int array in assending order.
+	 * 1. Start from second element.
+	 * 2. sorted|unsorted <--> arr[0]|arr[1..n]
+	 * 3. pick first value from unsorted array and insert it in sorted part of array.
+	 * 4. move forward to unsorted array.
 	 * @param arr
 	 * @return int []
 	 */
