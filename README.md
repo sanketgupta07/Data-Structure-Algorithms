@@ -2,7 +2,8 @@
 
 * <b>Sorting</b>
 
-	1. Insertion Sort 
+	1. Insertion Sort
+	2. Selection Sort 
 	
 
 	
