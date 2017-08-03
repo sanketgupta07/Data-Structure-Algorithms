@@ -25,15 +25,18 @@ public class SelectionSort {
 
 	/**
 	 * Selection Sort
+	 *  1. Selection
+	 *  2. Swaping 
+	 *  3. counter shift
 	 * @param arr
 	 * @return
 	 */
 	public static int[] selectionSort(int[] arr) {
-		for (int i = 0; i < arr.length; i++) {
+		for (int i = 0; i < arr.length; i++) { //Counter shift
 			int minIndx =i;
 			for (int j = i+1; j < arr.length; j++) {
 				if(arr[j] < arr[minIndx]) {
-					minIndx = j; //setting the minIndx for small value 
+					minIndx = j; //Selection 
 				}				
 			}
 			//Swap
