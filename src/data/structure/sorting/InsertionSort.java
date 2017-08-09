@@ -15,7 +15,8 @@ public class InsertionSort {
 	public static void main(String[] args) {
 		int [] input = {7,8,1,9,4,2,6,5}; 
 
-		int [] output = insertionSort(input);
+//		int [] output = insertionSort(input);
+		int [] output = recursiveInsertionSort(input, 1);
 
 		for (int i = 0; i < output.length; i++) {
 			System.out.println(output[i]);
@@ -42,6 +43,26 @@ public class InsertionSort {
 			arr[j+1] = key;
 		}
 		return arr;
+	}
+
+	/**
+	 * Insertion Sort in recursion.
+	 * @param arr
+	 * @param n
+	 * @return
+	 */
+	public static int[] recursiveInsertionSort(int[] arr, int n) {
+		if(n == arr.length +1) {
+			return arr;
+		}else {
+			int i;
+			for ( i = n-1; i >0 && arr[i] < arr[i-1]; i--) {
+				int temp = arr[i-1];
+				arr[i-1] = arr[i];
+				arr[i]=temp;
+			}
+			return recursiveInsertionSort(arr, n+1);
+		}
 	}
 
 }
