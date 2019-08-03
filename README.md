@@ -36,7 +36,22 @@
 		
 		* Counter++
 	
-
+3. <b>Bubble Sort</b>
+		
+	The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation.
+		
+	2.1 Time Complexity: O(n*n) as there are two nested loops.
+	
+	2.2 Auxiliary Space: O(1)
+	
+	2.3 Steps:
+		
+		* compare all adjacent elements 
+		
+		* Swapping if not sorted
+		
+		* Counter++
+	
 	
 
 Refrences: http://www.geeksforgeeks.org/data-structures/
