@@ -15,7 +15,7 @@ public class HeapSort {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int [] input = {7,8,1,9,4,2,6,5}; 
+		int [] input = {7,8,1,9,4,2,6,5,44,22,14}; 
 		HeapSort.sort(input);
 		for (int i : input) {
 			System.out.print(i+" ");
@@ -42,8 +42,8 @@ public class HeapSort {
 
 	private static void heapify(int[] arr, int n, int i) {
 		int largest = i;
-		int left = 2*i;
-		int right = 2*i +1;
+		int left = 2*i+1;
+		int right = 2*i +2;
 
 		if(left < n && arr[left]>arr[largest])
 			largest = left;
