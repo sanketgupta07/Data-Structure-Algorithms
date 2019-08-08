@@ -98,4 +98,20 @@
 		* rearrange the elements in reduced heap to make it Max heap
 		* repeat from step 2.
 
+6. <b>Counting Sort</b>
+		
+	Counting sort will create a counting array and fill it with repetitive count of the element at their index in counting array. And will arrange the array using number of count of the element from lowest to highest.
+		
+	2.1 Time Complexity: O(n+r) .
+	
+	2.2 Auxiliary Space: O(n+r)
+	
+	2.3 Steps:
+		
+		* Get the maximum and minimum element of the array.		
+		* Create a counting array with maximum +1 length.
+		* Fill the count of the element in counting array at their index position.
+		* rearrange the array using the number of count and add them to array starting from minimum.
+		
+
 Refrences: http://www.geeksforgeeks.org/data-structures/
