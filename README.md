@@ -1,5 +1,11 @@
 # Data Structure and Algorithims
 
+### Searching
+
+1. <b>Linear Search</b>
+
+	Linear search will traverse the whole array of elements and check the value, if found then return its index or -1
+
 ### Sorting
 
 1. <b>Insertion Sort</b>
