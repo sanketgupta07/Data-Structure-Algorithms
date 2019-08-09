@@ -11,7 +11,9 @@
 	In Binary search it is assumed that array is sorted. It will find the mid of array and compare with the value
 	
 	1.1 If value is equal to mid then it will return the index.	
+	
 	1.2 If value is greater than the mid then it will again find the mid from right hand side sub array
+	
 	1.3 If value is less that mid then it will again find the mid from left hand side sub array.
 
 ### Sorting
