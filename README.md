@@ -128,6 +128,26 @@
 		* Create a counting array with maximum +1 length.
 		* Fill the count of the element in counting array at their index position.
 		* rearrange the array using the number of count and add them to array starting from minimum.
+
+
+7. <b>Binary Insertion Sort</b>
+	
+	This sorting algo use insertion sort with binary search to find the insertion location. As insertion sort take O(n) comparisons to find the location. Binary search will reduce this to O(log n)
 		
+	1.1 Time Complexity: O(n^2) -- 2 nested loops
+		
+	1.2 Auxiliary Space: O(log n)
+		
+	1.3 Steps:
+		
+		* Start from second element.
+
+		* sorted|unsorted <--> arr[0]|arr[1..n]
+		
+		* pick first value from unsorted array and insert it in sorted part of array by using binary search to get the correct position.
+		
+		* Move the rest of the element in array.
+		
+		* move forward to unsorted array.		
 
 Refrences: http://www.geeksforgeeks.org/data-structures/
