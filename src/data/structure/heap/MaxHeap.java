@@ -6,7 +6,7 @@ package data.structure.heap;
 /**
  * @author sanket
  * 
- * MaxHeap is a balanced binary tree, which have parent node greater that its child node.
+ * MaxHeap is a balanced binary tree, which have parent node greater than its child node.
  * 
  *     80
  *    /  \
